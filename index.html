@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Trần Việt Hoàng - Lập trình viên</title>
+    <meta name="description" content="CV trực tuyến của Trần Việt Hoàng" />
+    <meta
+      name="keywords"
+      content="CV, Trần Việt Hoàng, IT, Developer, Fullstack, CV PDF"
+    />
+    <meta name="author" content="Trần Việt Hoàng" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      property="og:title"
+      content="CV - Trần Việt Hoàng - Lập trình viên Fullstack"
+    />
+    <meta
+      property="og:description"
+      content="Xem CV chi tiết của Trần Việt Hoàng, lập trình viên Fullstack."
+    />
+    <meta property="og:type" content="profile" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CV của Trần Việt Hoàng</h1>
+      <p>Lập trình viên | Fullstack Developer</p>
+    </header>
+
+    <main>
+      <section class="intro-text">
+        <p>
+          Chào mừng bạn đến với trang CV trực tuyến của tôi. Dưới đây là bản PDF
+          chi tiết về quá trình học tập, kinh nghiệm làm việc và các kỹ năng của
+          tôi. <br />Rất mong có cơ hội được trao đổi thêm về các vị trí phù
+          hợp.
+        </p>
+      </section>
+
+      <section class="cv-container">
+        <iframe
+          src="TranVietHoang_CV_Developer.pdf"
+          width="100%"
+          height="700px"
+          title="CV chi tiết của Trần Việt Hoàng"
+        >
+          <p>
+            Trình duyệt của bạn không hỗ trợ hiển thị PDF. Vui lòng
+            <a href="./TranVietHoang_CV_Developer.pdf">tải CV (PDF) về máy</a>
+            để xem.
+          </p>
+        </iframe>
+        <div
+          style="text-align: center; padding: 15px 0; background-color: #f8f9fa"
+        >
+          <a
+            href="./TranVietHoang_CV_Developer.pdf"
+            download="./TranVietHoang_CV_Developer.pdf"
+            class="download-link"
+          >
+            <i class="fas fa-download"></i> Tải CV (PDF)
+          </a>
+        </div>
+      </section>
+
+      <section class="contact-info">
+        <h2>Thông tin liên hệ</h2>
+        <div class="contact-card">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>
+              Email:
+              <a href="mailto:hoang12a3td@gmail.com">hoang12a3td@gmail.com</a>
+            </p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <p>Điện thoại: <a href="tel:+84359645096">0359 645 096</a></p>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <p>
+              GitHub:
+              <a href="https://github.com/hoang2807" target="_blank"
+                >github.com/hoang2807</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; <span id="currentYear"></span> Trần Việt Hoàng. All rights
+        reserved.
+      </p>
+    </footer>
+
+    <script>
+      document.getElementById('currentYear').textContent =
+        new Date().getFullYear();
+    </script>
+  </body>
+</html>
